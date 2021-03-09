@@ -13,4 +13,5 @@ pom.xml.asc
 /.idea
 clojure-notes.txt
 progress
+*.iml
 
