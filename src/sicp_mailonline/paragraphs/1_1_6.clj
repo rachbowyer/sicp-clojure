@@ -1,4 +1,4 @@
-(ns sicp-mailonline.core)
+(ns sicp-mailonline.paragraphs.1-1-6)
 
 ; 1.1.6
 

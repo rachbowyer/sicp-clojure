@@ -13,6 +13,4 @@
     (testing "Make account when password is wrong"
       (is (= ((acc 'some-other-password :deposit) 50)) "Incorrect password"))))
 
-(run-tests)
-
 

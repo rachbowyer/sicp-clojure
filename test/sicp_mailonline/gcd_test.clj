@@ -5,5 +5,3 @@
 (deftest gcd-test
   (testing "gcd"
     (is (= (gcd 40 206) 2))))
-
-(run-tests)

@@ -1,6 +1,6 @@
 (ns sicp-mailonline.paragraphs.2-1-2 
-  (require [sicp-mailonline.paragraphs.2-1-1 :refer :all]
-           [sicp-mailonline.gcd :refer :all]))
+  (:require [sicp-mailonline.paragraphs.2-1-1 :refer :all]
+            [sicp-mailonline.gcd :refer :all]))
 
 (defn make-rat-2 [n d]
   (cons n (cons d nil)))

@@ -17,6 +17,4 @@
   
   (testing "three elements"
     (is (= (last-pair (list 1 2 3)) 3))))
-  
-(run-tests)
 

@@ -14,5 +14,3 @@
 		((new-rand-2 :reset) random-init)
 		(is (new-rand-2 :generate) 1155484576)
 		(is (new-rand-2 :generate) 723955400)))
-
-(run-tests)

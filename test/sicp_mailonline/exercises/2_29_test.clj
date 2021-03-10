@@ -4,8 +4,8 @@
 ; 
 
 (ns sicp-mailonline.exercises.2-29-test
-  (require [sicp-mailonline.exercises.2-29 :refer :all]
-           [clojure.test :refer :all]))
+  (:require [sicp-mailonline.exercises.2-29 :refer :all]
+            [clojure.test :refer :all]))
 
 
 (def m1 (make-mobile (make-branch 4 5) (make-branch 5 4))) 
@@ -23,6 +23,3 @@
 
    (testing "unbalanced"
     (is (not (is-balanced? m2)))))
-
-
-(run-tests)

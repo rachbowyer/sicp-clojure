@@ -1,7 +1,7 @@
 ; 
 ; Paragraph 1.2.2
 ;
-(ns sicp-mailonline.core)
+(ns sicp-mailonline.paragraphs.1-2-2)
 
 
 ; Takes as an input the number of kinds of coins available

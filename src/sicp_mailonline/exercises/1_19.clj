@@ -1,4 +1,4 @@
-(ns sicp-mailonline.core)
+(ns sicp-mailonline.exercises.1-19)
 ; 
 ; Exercise 1.19
 ;
@@ -89,7 +89,7 @@
       (* (get x 1) (get y 1))))
 
 (defn mat-mult [x y]
-  ; Matrixes are represented as vectors of 4 elements
+  ; Matrices are represented as vectors of 4 elements
   ; [0 1 2 3] laid out
   ;  (0 1)
   ;  (2 3) 

@@ -3,8 +3,8 @@
 ; 
 
 (ns sicp-mailonline.exercises.2-42-test
-  (require [sicp-mailonline.exercises.2-42 :refer :all]
-           [clojure.test :refer :all]))
+  (:require [sicp-mailonline.exercises.2-42 :refer :all]
+            [clojure.test :refer :all]))
 
 
 (def expected '(([3 4] [1 3] [4 2] [2 1]) ([2 4] [4 3] [1 2] [3 1])) )
@@ -20,5 +20,3 @@
 		; See https://en.wikipedia.org/wiki/Eight_queens_puzzle	
 		(is (= (count (queens 8)) 92)
 		(is (= (count (queens 9)) 352))))
-
-(run-tests)

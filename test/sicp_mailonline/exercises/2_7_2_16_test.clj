@@ -1,4 +1,4 @@
-(ns sicp-mailonline.exercises.2-7-2-16.test
+(ns sicp-mailonline.exercises.2-7-2-16-test
   (:require [clojure.test :refer :all]
             [sicp-mailonline.exercises.2-7-2-16 :refer :all]))
 ; 
@@ -182,8 +182,4 @@
       
       (is (float= (lower-bound a) (lower-bound b) 0.00001))
       (is (float= (upper-bound a) (upper-bound b) 0.00001)))))
-      
-
-
-(run-tests)
 

@@ -10,5 +10,3 @@
 		(let [result (estimate-integral (make-circle 1) -1 1 -1 1 100000)]
 			(is (< result 3.15))
 			(is (> result 3.13)))))
-
-(run-tests)

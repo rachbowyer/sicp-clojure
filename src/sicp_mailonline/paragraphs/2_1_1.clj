@@ -1,8 +1,9 @@
-;
-; Paragraph 2.1.1
-;
 (ns sicp-mailonline.paragraphs.2-1-1
-  (require [sicp-mailonline.gcd :refer :all]))
+  (:require [sicp-mailonline.gcd :refer :all]))
+
+;;
+;; Paragraph 2.1.1
+;;
 
 (declare make-rat)
 (declare numer)

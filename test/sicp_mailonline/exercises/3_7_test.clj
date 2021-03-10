@@ -12,5 +12,3 @@
 
           (is (= ((peter-acc 'open-sesame :withdraw) 40) 60))
           (is (= ((peter-acc 'open-sesame :withdraw) 40) 20)))))
-
-(run-tests)

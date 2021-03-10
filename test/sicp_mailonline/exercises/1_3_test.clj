@@ -1,6 +1,6 @@
-(ns sicp-mailonline.core-test
+(ns sicp-mailonline.exercises.1-3-test
   (:require [clojure.test :refer :all]
-            [sicp-mailonline.core :refer :all]))
+            [sicp-mailonline.exercises.1-3 :refer :all]))
 
 (deftest square-test
     (testing "Square"
@@ -16,4 +16,3 @@
     (is (= 41 (sum-of-squares-largest 4 5 3)))
     (is (= 41 (sum-of-squares-largest 4 5 4)))))
 
-(run-all-tests)

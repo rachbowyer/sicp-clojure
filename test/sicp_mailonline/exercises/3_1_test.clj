@@ -10,5 +10,3 @@
 		(let [A (make-accumulator 5)]
 			(is (= 15 (A 10)))
 			(is (= 25 (A 10))))))
-
-(run-tests)

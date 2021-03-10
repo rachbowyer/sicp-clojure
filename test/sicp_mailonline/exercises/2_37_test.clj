@@ -3,8 +3,8 @@
 ; 
 
 (ns sicp-mailonline.exercises.2-37-test
-  (require [sicp-mailonline.exercises.2-37 :refer :all]
-           [clojure.test :refer :all]))
+  (:require [sicp-mailonline.exercises.2-37 :refer :all]
+            [clojure.test :refer :all]))
 
 (deftest dot-product-test
   (testing "dot product"
@@ -26,5 +26,3 @@
     ; (3 4) (7 8)  =  (3*5+4*7 3*6+4*8)  = (43 50)
     (is (= (matrix-*-matrix '((1 2) (3 4)) '((5 6) (7 8))) 
                             '((19 22) (43 50))))))
-
-(run-tests)

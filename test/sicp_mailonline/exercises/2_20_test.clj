@@ -13,5 +13,3 @@
   (testing "Same parity of 1 2 3 4"
     (is (= (same-parity 1 2 3 4)
         '(1 3)))))
-
-(run-tests)

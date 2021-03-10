@@ -1,4 +1,4 @@
-(ns sicp-mailonline.exercises.2-3.test
+(ns sicp-mailonline.exercises.2-3-test
   (:require [clojure.test :refer :all]
             [sicp-mailonline.exercises.2-3 :refer :all]))
 
@@ -63,5 +63,3 @@
       sr2 er2
       (mr2 (make-point 2 3) 5 7))
     35)))
-
-(run-tests)

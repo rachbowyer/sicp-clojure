@@ -49,12 +49,13 @@
         (predicate (first sequence))    (cons (first sequence) (filter predicate (rest sequence)))
          :else                          (recur predicate (rest sequence))))
 
-
 (defn s-accumulate [op initial sequence]
   (if (empty? sequence)
-      initial
-      (op (first sequence)
-           (s-accumulate op initial (rest sequence)))))
+    initial
+    (op (first sequence)
+        (s-accumulate op initial (rest sequence)))))
+
+
 
 (println (s-accumulate + 0 (list 1 2 3 4 5)))
 

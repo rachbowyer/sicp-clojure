@@ -1,6 +1,6 @@
-(ns sicp-mailonline.core-test
+(ns sicp-mailonline.paragraphs.1-1-6-test
   (:require [clojure.test :refer :all]
-            [sicp-mailonline.core :refer :all]))
+            [sicp-mailonline.paragraphs.1-1-6 :refer :all]))
 
 (deftest abs-test
   (testing "Test abs"
@@ -20,6 +20,3 @@
     (is (= 2 (abs3 -2)))
     (is (= 0 (abs3 0)))
     (is (= 3 (abs3 3)))))
-
-
-(run-all-tests)

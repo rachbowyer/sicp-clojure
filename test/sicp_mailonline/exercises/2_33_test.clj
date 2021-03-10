@@ -3,8 +3,8 @@
 ; 
 
 (ns sicp-mailonline.exercises.2-33-test
-  (require [sicp-mailonline.exercises.2-33 :refer :all]
-           [clojure.test :refer :all]))
+  (:require [sicp-mailonline.exercises.2-33 :refer :all]
+            [clojure.test :refer :all]))
 
 (deftest s-map-test
   (testing "Nils"
@@ -28,7 +28,4 @@
 
   (testing "Not nil"
     (is (= (s-length '(1 2 3))))))
-
-(run-tests)
-
 

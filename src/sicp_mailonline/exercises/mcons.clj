@@ -1,28 +1,4 @@
-(ns sicp-mailonline.mcons)
-
-; mcons
-; car
-; cdr
-;
-; set-car!
-; set-cdr!
-;
-
-; (defprotocol MutableCons
-
-;   )
-
-
-; (deftype MCons
-;   mutable-cons
-
-;   (init [h t]
-;       (merge this { :h (atom h)
-;                     :t (atom t)})))
-
-
-; (defn mcons [h t]
-;   (init (MCons.) h t))
+(ns sicp-mailonline.exercises.mcons)
 
 (defn mcons [h t]
   [(atom h) (atom t)])

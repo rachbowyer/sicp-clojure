@@ -1,7 +1,7 @@
 ; 
 ; Exercise 2.6
 ;
-(ns sicp-mailonline.exercises.2-6.test
+(ns sicp-mailonline.exercises.2-6-test
   (:require [clojure.test :refer :all]
             [sicp-mailonline.exercises.2-6 :refer :all]))
 
@@ -24,5 +24,4 @@
   (testing "1 + 2 = 3"
     (is (= (((add one two) square) 2) ((three square) 2)))))
 
-(run-tests)
 

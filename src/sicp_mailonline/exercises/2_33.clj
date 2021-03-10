@@ -1,9 +1,9 @@
-;
-; Exercise 2.33
-;
-
 (ns sicp-mailonline.exercises.2-33
   (:require [sicp-mailonline.paragraphs.2-2-3 :refer [s-accumulate]]))
+
+;;
+;; Exercise 2.33
+;;
 
 (defn s-map [p sequence]
   (s-accumulate (fn [a b] (cons (p a) b)) nil sequence))

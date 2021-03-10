@@ -18,5 +18,3 @@
       (is (= (s 4) 2.0))
       (s :reset-count) 
       (is (= (s :how-many-calls?) 0)))))
-
-(run-tests)

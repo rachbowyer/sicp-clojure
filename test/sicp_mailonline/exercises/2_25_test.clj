@@ -15,8 +15,3 @@
 
   (testing "part 3"
     (is (= (part-3) 7))))
-
-(run-tests)
-
-
-

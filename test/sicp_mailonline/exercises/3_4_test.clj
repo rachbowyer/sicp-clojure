@@ -12,6 +12,3 @@
         result  (map #((acc 'some-other-password :deposit) %) (range 1 9))
         expected (concat (repeat 7 "Incorrect password") '("Cops have been called"))]
         (is (= expected result))))))
-
-(run-tests)
-

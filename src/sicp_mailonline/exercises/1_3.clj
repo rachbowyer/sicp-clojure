@@ -1,4 +1,4 @@
-(ns sicp-mailonline.core)
+(ns sicp-mailonline.exercises.1-3)
 
 ; Exercise 1.3
 

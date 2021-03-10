@@ -29,5 +29,3 @@
 (deftest test-count-change-alt-order
   (testing "Ways to make a dollar are correct"
     (is (= (cc 100 us-coins-alternative-order) 292))))
-
-(run-tests)

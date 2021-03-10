@@ -5,7 +5,7 @@
 
 (defn last-pair [a]
   (if (empty? a)
-    nil
+    '()
     (if (empty? (rest a))
      (first a)
      (recur (rest a)))))

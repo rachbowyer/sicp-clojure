@@ -30,13 +30,13 @@
 (println (list-ref squares 3))
 
 
-(defn length [items]
-  (if (empty? items)
-    0
-    (inc (length (rest items)))))
-
+;(defn length [items]
+;  (if (empty? items)
+;    0
+;    (inc (length (rest items)))))
+;
 (def odds (list 1 3 5 7))
-(println (length odds))
+;(println (length odds))
 
 (defn length [items]
   (letfn [(length-iter [a count]

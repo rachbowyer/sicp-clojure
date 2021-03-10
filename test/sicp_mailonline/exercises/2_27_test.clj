@@ -3,8 +3,8 @@
 ; 
 
 (ns sicp-mailonline.exercises.2-27-test
-  (require [sicp-mailonline.exercises.2-27 :refer :all]
-           [clojure.test :refer :all]))
+  (:require [sicp-mailonline.exercises.2-27 :refer :all]
+            [clojure.test :refer :all]))
 
 
 (deftest deep-reverse-test
@@ -21,5 +21,3 @@
   (testing "nested lists"
     (is (= (deep-reverse '((1 2) (3 4)))      '((4 3) (2 1))))
     (is (= (deep-reverse '((1 (5 8)) (3 4)))  '((4 3) ((8 5) 1))))))
-
-(run-tests)

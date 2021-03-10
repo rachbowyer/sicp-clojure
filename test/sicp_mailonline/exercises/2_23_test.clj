@@ -18,8 +18,3 @@
       (for-each
         (fn [x] (is false))
         nil)))
-
-(run-tests)
-
-
-

@@ -3,8 +3,8 @@
 ; 
 
 (ns sicp-mailonline.exercises.2-35-test
-  (require [sicp-mailonline.exercises.2-35 :refer :all]
-           [clojure.test :refer :all]))
+  (:require [sicp-mailonline.exercises.2-35 :refer :all]
+            [clojure.test :refer :all]))
 
 (def x (cons (list 1 2) (list 3 4)))
 
@@ -14,7 +14,3 @@
 
   (testing "Non-nil"
     (is (= (count-leaves x) 4))))
-
-
-(run-tests)
-

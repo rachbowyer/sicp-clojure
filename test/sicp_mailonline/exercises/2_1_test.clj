@@ -12,4 +12,3 @@
     (is (= (make-rat 4 -6) '(-2 3)))
     (is (= (make-rat -4 -6) '(2 3)))))
 
-(run-tests)

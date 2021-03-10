@@ -1,4 +1,4 @@
-(ns sicp-mailonline.core
+(ns sicp-mailonline.exercises.2-44-2-52
   (:require
     [henderson.core :as hc]
     [henderson.examples :as he]))
