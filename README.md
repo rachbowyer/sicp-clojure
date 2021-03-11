@@ -4,13 +4,15 @@
 
     Hal Abelson, 1986.
 
-I first came across _Structure and Interpretation of Computer Programs_ ("SICP") 
+I first came across _Structure and Interpretation of Computer Programs_ 
+(["SICP"](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)) 
 around the year 2000. At that time I was a software engineer at a large
 investment bank. I was working on building multi-threaded real-time risk systems 
 in C++. SICP and Scheme blew my mind. Here was a language that could create and
 return functions!
 
-[Picture here]
+<img src="https://github.com/rachbowyer/sicp-clojure/blob/rachbowyer/sicp_and_train_ticket.jpg" 
+alt="Picture of train ticket and text from instructors Manual to SICP" width="250"/>
 
 I have recently come across a copy of the Instructor's Manual for SICP, bookmarked
 with a London Underground ticket dated June 2000, marking commentary on Church
@@ -91,6 +93,7 @@ _March 2021_
 looking at defining computability and wanted to add integers to a language 
 (lambda calculus) that only supported function definition and application. With 
 this context they move from being "pointless" to beautiful!
+
 
 <sup>2</sup> I was wrong again. Paul Graham was happily building a multi-million
 pound internet startup, ViaWeb, in Common Lisp at this point.
