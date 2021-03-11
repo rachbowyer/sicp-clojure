@@ -11,8 +11,10 @@ investment bank. I was working on building multi-threaded real-time risk systems
 in C++. SICP and Scheme blew my mind. Here was a language that could create and
 return functions!
 
+<p style="text-align:center;">
 <img src="https://github.com/rachbowyer/sicp-clojure/blob/rachbowyer/sicp_and_train_ticket.jpg" 
 alt="Picture of train ticket and text from instructors Manual to SICP" width="250"/>
+</p>
 
 I have recently come across a copy of the Instructor's Manual for SICP, bookmarked
 with a London Underground ticket dated June 2000, marking commentary on Church
