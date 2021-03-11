@@ -16,3 +16,4 @@ progress
 *.iml
 gc.out
 gc.out.*
+*.log
