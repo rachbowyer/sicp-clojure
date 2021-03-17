@@ -4,10 +4,6 @@
 
     Hal Abelson, 1986.
 
-<p align="center">
-<img src="https://github.com/rachbowyer/sicp-clojure/blob/rachbowyer/sicp_and_train_ticket.jpg" 
-alt="Picture of train ticket and text from instructors Manual to SICP" width="250"/>
-</p>
 
 This repo mainly contains the code I wrote in 2014-2015. Often it just had Clojure code copied 
 and pasted from the REPL. I was solving problems, not writing an application.
